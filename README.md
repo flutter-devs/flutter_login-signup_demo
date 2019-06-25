@@ -3,16 +3,16 @@
 A sample app to showcase login-signup app using flutter. 
 
 # Demo
-<img height="480px" width="270px" src="https://github.com/flutter-devs/flutter_login_demo/blob/master/screens/demo.gif">
+<img height="480px" width="270px" src="https://github.com/flutter-devs/flutter_login-signup_demo/blob/master/screens/demo.gif">
 
 
 
 # Android Screen
-<img height="480px" src="https://github.com/flutter-devs/flutter_login_demo/blob/master/screens/android1.png">  <img height="480px" src="https://github.com/flutter-devs/flutter_login_demo/blob/master/screens/android2.png">
+<img height="480px" src="https://github.com/flutter-devs/flutter_login-signup_demo/blob/master/screens/android1.png">  <img height="480px" src="https://github.com/flutter-devs/flutter_login-signup_demo/blob/master/screens/android2.png">
 
 
 # iOS Screen
-<img height="480px" src="https://github.com/flutter-devs/flutter_login_demo/blob/master/screens/iphone1.png"> <img height="480px" src="https://github.com/flutter-devs/flutter_login_demo/blob/master/screens/iphone2.png">
+<img height="480px" src="https://github.com/flutter-devs/flutter_login-signup_demo/blob/master/screens/iphone1.png"> <img height="480px" src="https://github.com/flutter-devs/flutter_login-signup_demo/blob/master/screens/iphone2.png">
 
 
 ## Getting Started
