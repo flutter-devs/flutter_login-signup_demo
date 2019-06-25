@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "256932715179",
+    "firebase_url": "https://loginsignupauth-47b36.firebaseio.com",
+    "project_id": "loginsignupauth-47b36",
+    "storage_bucket": "loginsignupauth-47b36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256932715179:android:1f19d0066e15b232",
+        "android_client_info": {
+          "package_name": "com.example.flutter_logindemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256932715179-vq4vl0j1v61biccrjugriqja08c6gomn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3HEUp56i8qfpmfOsKkKz3BmoRwjTll0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256932715179-vq4vl0j1v61biccrjugriqja08c6gomn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
