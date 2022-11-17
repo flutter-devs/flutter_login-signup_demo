@@ -209,18 +209,28 @@ class _SignInScreenState extends State<SignInScreen> {
   }
 
   Widget button() {
-    return RaisedButton(
-      elevation: 0,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(30.0)),
+    return ElevatedButton(
+      style: ButtonStyle(
+        textStyle: MaterialStateProperty.resolveWith<TextStyle>(
+                (state) => TextStyle(color: Colors.white)),
+        padding: MaterialStateProperty.resolveWith<EdgeInsets>(
+              (state) => EdgeInsets.all(0.0),
+        ),
+        elevation: MaterialStateProperty.resolveWith<double>(
+              (state) => 0,
+        ),
+        shape: MaterialStateProperty.resolveWith<OutlinedBorder>((_) {
+          return RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(30));
+        }),
+      ),
       onPressed: () {
           print("Routing to your account");
-          Scaffold
+          ScaffoldMessenger
               .of(context)
               .showSnackBar(SnackBar(content: Text('Login Successful')));
 
       },
-      textColor: Colors.white,
-      padding: EdgeInsets.all(0.0),
       child: Container(
         alignment: Alignment.center,
         width: _large? _width/4 : (_medium? _width/3.75: _width/3.5),
